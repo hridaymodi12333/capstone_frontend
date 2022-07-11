@@ -1,0 +1,47 @@
+.productName
+{
+font-family: var(--roboto);
+text-transform: capitalize;
+}
+.companyName{
+    opacity: 0.5;
+}
+.priceValue{
+    color:green;
+    font-family:var(--roboto);
+    font-weight: 800;    
+}
+.tagsLabel{
+    opacity: 0.8;
+
+}
+
+.quantity-div{
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.quantity-div >*{
+    margin: 5px;
+    border-radius: 50px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    width: 35px;
+    text-align: center;
+
+}
+.card-view{
+ /* display: flex !important;
+ flex-direction: column !important;
+ justify-content: center !important; */
+    box-shadow: 2px 2px 5px rgb(159, 156, 156);
+}
+.card-view:hover{
+ /* display: flex !important;
+ flex-direction: column !important;
+ justify-content: center !important; */
+    box-shadow: 2px 2px 5px #997ce7;
+}
